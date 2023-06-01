@@ -4,40 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href=".\" target="_blank">
+    <style media="screen">
+        p {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
     <title>HTTP</title>
 </head>
 <body>
 
     <header>
         <h1>Hyper-text Transfer Protocol</h1>
+        <h3>(Protocolo de Transferencia de Hipertexto)</h3>
     </header>
     <div class="Portada">
         <picture>
-            <img id= "HTTP" class= "HTTP" src=".\..\imagenes\HTTP.jpg" srcset="https://concepto.de/wp-content/uploads/2018/02/http-min-e1518718001273.jpg" 
+            <img id= "HTTP" class= "HTTP" src=".\..\..\imagenes\HTTP.jpg" srcset="https://concepto.de/wp-content/uploads/2018/02/http-min-e1518718001273.jpg" 
             alt="HTTP">
-                <p>Ejemplo de una dirección web con el protocolo HTTP</p>
+                <h5>
+                    Ejemplo de una dirección web con el protocolo HTTP
+                </h5>
         </picture>
     </div>
+    <nav class="index">
+        <ol>
+            <li class="index">
+                <a href="file:///C:/Users/Riki/Desktop/Desarrollo%20Web/HTML/Tarea_HTML/Tarea.html#:~:text=Modelo%20TCP/IP-,Definici%C3%B3n,-El%20protocolo%20de">
+                    Definición
+                </a> 
+            </li>
+            <li>
+                <a href="file:///C:/Users/Riki/Desktop/Desarrollo%20Web/HTML/Tarea_HTML/Tarea.html#:~:text=Transferencia%20de%20Hipertexto-,Modelo%20TCP/IP,-Dicho%20protocolo%20pertenece">
+                    Modelo TCP/IP</a>
+            </li>
+        </ol>
+    </nav>
     <main>
-        <p>
-            <h2>Definición</h2>
-        El protocolo de transferencia de hipertexto 
-            <strong>    
-                <abbr title="Hyper-text Transfer Protocol">HTTP</abbr>
-            </strong> 
-        es un conjunto de reglas que permiten la transmisión de información através de 
-            <i>enlaces</i> 
-        de hipertexto en la web<br>
-        En el sitio web de 
-            <cite>  
-                <a href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto">Wikipedia</a>
-            </cite>  
-        se nos define como 
-            <q cite="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto#:~:text=es%20el%20protocolo%20de%20comunicaci%C3%B3n%20que%20permite%20las%20transferencias%20de%20informaci%C3%B3n%20a%20trav%C3%A9s%20de%20archivos%20(XML%2C%20HTML%E2%80%A6)%20en%20la%20World%20Wide%20Web">
-                <i>el protocolo de comunicación que permite las transferencias de información a través de archivos (XML, HTML…) 
-                en la World Wide Web.</i>
-            </q>
-        </p>
+        <section>
+            <dialog open>
+                <p>Esta es mi prueba de página web</p>
+                <form method="dialog">
+                    <button>Cerrar</button> 
+                </form>
+            </dialog>
+            <h2 id="file:///C:/Users/Riki/Desktop/Desarrollo%20Web/HTML/Tarea_HTML/Tarea.html#:~:text=Modelo%20TCP/IP-,Definici%C3%B3n,-El%20protocolo%20de">
+                Definición
+            </h2>
+            <p>
+                El protocolo de transferencia de hipertexto
+                <strong>    
+                    <abbr title="Hyper-text Transfer Protocol">HTTP</abbr>
+                </strong> 
+                es un conjunto de reglas que permiten la transmisión de información através de 
+                <i>enlaces</i> 
+                de hipertexto en la web
+            </p>
+            <p>
+                En el sitio web de 
+                <cite>  
+                    <a href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto">Wikipedia</a>
+                </cite>  
+                se nos define como 
+                <q cite="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto#:~:text=es%20el%20protocolo%20de%20comunicaci%C3%B3n%20que%20permite%20las%20transferencias%20de%20informaci%C3%B3n%20a%20trav%C3%A9s%20de%20archivos%20(XML%2C%20HTML%E2%80%A6)%20en%20la%20World%20Wide%20Web">
+                    <i>el protocolo de comunicación que permite las transferencias de información a través de archivos (XML, HTML…) 
+                    en la World Wide Web.</i>
+                </q>
+            </p>
+            <p>
+                Para esto, HTTP utiliza una arquitectura <span><em>cliente-servidor</em></span> en el que la información se desplaza de un lado a otro 
+                de la cadena de comunicación en un ciclo de solicitud y respuesta, donde el cliente (o agente de usuario) reliza una solicitud 
+                al servidor web y este le responde (generalmente de manera afirmativa o negativa) atendiendo a la solicitud que el cliente requirió.
+            </p><br>
+            <aside>
+                <blockquote>
+                    <p> 
+                        HTTP es un protocolo sin estado, por lo que no guarda ninguna información sobre conexiones anteriores. 
+                        El desarrollo de aplicaciones web necesita frecuentemente mantener estado. Para esto se usan las cookies, 
+                        que es información que un servidor puede almacenar en el sistema cliente. 
+                        Esto le permite a las aplicaciones web instituir la noción de sesión, y también permite rastrear usuarios, 
+                        ya que las cookies pueden guardarse en el cliente por tiempo indeterminado.
+                    </p>
+                </blockquote>
+                <cite><small>Wikipedia: Protocolo de Transferencia de Hipertexto</small></cite>
+            </aside><br>
+            <h2 id="file:///C:/Users/Riki/Desktop/Desarrollo%20Web/HTML/Tarea_HTML/Tarea.html#:~:text=Transferencia%20de%20Hipertexto-,Modelo%20TCP/IP,-Dicho%20protocolo%20pertenece">
+                Modelo TCP/IP
+            </h2>
+            <p>
+                HTTP es un protocolo que pertenece a la capa de aplicación del modelo <a href="https://es.wikipedia.org/wiki/Modelo_TCP/IP"><strong>TCP/IP</strong></a> 
+                (y también del <a href="https://es.wikipedia.org/wiki/Modelo_OSI">Modelo OSI</a>) junto a otros protocolos pertenecientes a la misma capa 
+                de abstracción que permiten la transmisión de información através de una red, como lo son <i>FTP, SMTP, DHCP,</i> etc.
+            </p>
+        </section>
+        <div>
+            <iframe src="https://es.wikipedia.org/wiki/Modelo_TCP/IP#Relaci%C3%B3n_con_el_modelo_OSI" name="Modelo_TCP/IP" width="650px" height="650px"></iframe>
+            <sub>
+                <p style="font-family: 'Times New Roman', Times, serif ;">
+                    Fuente 
+                    <a href="https://es.wikipedia.org/wiki/Modelo_TCP/IP#Relaci%C3%B3n_con_el_modelo_OSI">Wikipedia: Modelo TCP/IP</a>
+                </p>
+            </sub>
+            <p>
+                Este modelo, además, posee otras múltiples capas de abstracción, las cuales procesan funciones completamente diferentes e independientes 
+                unas de otras pero que en conjunto tienen la capacidad de enviar y recibir paquetes de datos entre dos o más terminales de una red local 
+                o global.
+            </p>
+            <figure>
+                <figcaption>El siguiente video extraído de <a href="https://www.youtube.com/">Youtube</a> nos explica como opera y se mantiene el modelo o familia de protocolos TCP/IP</figcaption>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JQDCL17sARA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </figure>
+        </div>
     </main>
 </body>
 </html>
